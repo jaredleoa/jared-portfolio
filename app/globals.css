@@ -1,9 +1,17 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg: 11 15 14;          /* near-black */
+  --surface: 15 21 19;     /* card */
+  --text: 230 241 238;     /* off-white */
+  --muted: 159 179 173;    /* muted */
+  --accent: 34 197 94;     /* green */
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 
 @theme inline {
   --color-background: var(--background);
